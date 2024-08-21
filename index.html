@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp1Software</title>
+</head>
+<style>
+    .cursiva {
+        font-style: italic;
+    }
+
+    .negrita {
+        font-weight: bold;
+    }
+
+    .subrayado {
+        text-decoration: underline;
+    }
+
+    table {
+
+        border: 1px solid black;
+
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Encabezado principal</h1>    
+        <ul>
+            <li><a href="#Estructura">Estructura</a></li>
+            <li><a href="#Encabezado">Encabezado</a></li>
+            <li><a href="#Divisiones">Divisiones</a></li>
+            <li><a href="#Enlaces">Enlaces</a></li>
+            <li><a href="#Multimedia">Multimedia</a></li>
+            <li><a href="#Formulario">Formulario</a></li>
+            <li><a href="#Tablas">Tablas</a></li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <h1 id="Estructura">1.Estructura basica del Documento HTML</h1>
+            <p>Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos
+                y un titulo</p>
+        </div>
+        <div>
+            <h2 id="Encabezado">2.Encabezados y propiedades del texto</h2>
+            <p class="subrayado"> Este es un texto subrayado abajo</p>
+            <p class="negrita">Este es un texto en negrita</p>
+            <p class="cursiva">Este es un texto en cursiva</p>
+        </div>
+        <h1 id="Divisiones">3.Divisiones y agrupacion de contenidos</h1>
+        <div>
+    
+            <h3>Seccion 1</h3>
+            <p>Contenido de la primera seccion agrupada en un div</p>
+        </div>
+    
+        <div>
+            <h3>Seccion 2</h3>
+            <p>Contenido de la segunda seccion agrupada en un div</p>
+        </div>
+        <div>
+            <h1 id="Enlaces">4.Enlaces y Listas</h1>
+            <nav>
+                <p>Visita nuestro <a href="https://www.youtube.com/watch?v=FcZ_D5jsilM&t=7s">sitio web</a>
+                </p>
+                <h4>Enlaces internos: </h4>
+                <div>
+                    <a href=" #Estructura" target="blank"> Ir a estructura </a>
+                </div>
+                <div>
+                    <a href=" #Multimedia" target="blank"> Ir a multimedia </a>
+                </div>
+                <div>
+                    <a href=" #Formulario" target="blank"> Ir a formulario </a>
+                </div>
+            </nav>
+            <h4>Listas desordenadas: </h4>
+            <ul>
+                <li> Primer item de una linea desordenada</li>
+                <li> Segundo item de una linea desordenada</li>
+                <li> Tercer item de una linea desordenada</li>
+            </ul>
+            <h4>Listas ordenadas: </h4>
+            <ol>
+                <li> Primer item de una linea ordenada</li>
+                <li> Segundo item de una linea ordenada</li>
+                <li> Tercer item de una linea ordenada</li>
+            </ol>
+        </div>
+        <div>
+            <h1 id="Multimedia">5.Elementos multimedia</h1>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg"
+                width="250 px" height="250 px" alt="Es una imagen">
+            <video
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                controls width="250 px" height="250 px"></video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    
+        </div>
+        <div>
+            <h1 id="Tablas"> 6.Tablas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna1</th>
+                        <th>Columna2</th>
+                    </tr>
+    
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Dato1</td>
+                        <td>Dato2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato3</td>
+                        <td>Dato4</td>
+                    </tr>
+                </tbody>
+    
+    
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h1 id="Formulario"> 7.Formulario</h1>
+            <form action="">
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su Nombre">
+                <label>Email</label>
+                <input type="email" placeholder="Usuario@correo.com">
+                <label>Mensaje</label>
+                <textarea>
+    
+                </textarea>
+                <button type="submit"> Enviar
+                </button>
+            </form>
+        </div>
+    </footer>
+       
+    
+    
+</body>
+
+</html>
