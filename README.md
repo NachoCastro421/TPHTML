@@ -3,6 +3,7 @@ Hola soy Juan Ignacio Castro, estudiante de Ingenieria en Sistemas en la UTN FRM
 Este proyecto tiene como finalidad aprender los conceptos basicos y la estructura de HTML.
 
 #Proyecto#
+
 Estructura : Arme una estructura basica utilizando el elemento html con un atributo lang para especificar el idioma del contenido,
 ademas de incluir la etiqueta <head> para agregar metadatos y la etiqueta <body> que es la que contiene todo el contenido visible de la pagina.
 
